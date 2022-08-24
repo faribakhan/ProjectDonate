@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body{
+    margin: 0;
+    font-family: 'DynaPuff', cursive;
+}
+
+.fullDiv{   
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    border: transparent;
+}
+.header{
+    padding: 174px 25%;
+    background-image: url(../images/donation1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.inner-section{
+    padding: 100px 25%;
+}
+#p1{
+    color: aliceblue;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.list{
+    font-size: 30px;
+    width: 150px;
+    margin: 10px;
+    padding-top: 0 30px;
+    align-content: space-between;
+    color: grey;
+
+}
+.header h1{
+    font-size: 60px;
+}
+.inner-heading{
+    font-size: 40px;
+}
+button{
+    background-color: rgb(247, 83, 23);
+    border: 0px;
+    border-radius: 2px;
+    height: 40px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+p{
+    color:darkgray
+}
+.box{
+    padding: 60px 20px;
+    margin: 50px 10px ;
+    text-align: left;
+    flex-direction: column;
+    justify-content: left;
+}
+.second-half{
+    padding: 50px 15%;
+    margin-bottom: 50px;
+}
+.third-heading{
+    padding: 50px 25%;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+.b1{
+    background-color: #4F9DA61A;
+}
+.b2{
+    background-color: #FF59591A;
+}
+.b3{
+    background-color: lightyellow;
+}
+.half-banner{
+    width:35%;
+    padding-right: 3%;
+    padding-top: 2%;
+    float: left;
+    text-align: left;
+}
+.half-banner img{
+    border-radius: 3%;
+    height: 300px;
+    width: 300px;
+}
+footer{
+    background-size: 100%;
+    background-color: black;
+    text-align: center;
+    border: 2px solid ;
+}
+footer h2{
+    color: orangered;
+    padding-top: 5%;
+}
+footer p{
+    padding-top: 0;
+    color: white;
+    padding-bottom: 5%;
+}
+.half-banner h1{
+    font-size: 45px;
+}
+.half-banner p{
+    font-size: 20px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    background-color: beige;
+}
+.last-section{
+    width: 70%;
+    height: 250px;
+    text-align: center;
+    margin: 0 10%;
+    border: 100px solid white;
+    background-color: lightyellow;
+}
+
